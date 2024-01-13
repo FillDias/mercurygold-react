@@ -5,7 +5,7 @@ import sigles0 from "../../assets/imagens/sigles0.jpeg";
 function Contracapa() {
   return (
     <>
-      <div>
+      <div className="relative w-full h-auto">
         <Image src={sigles0} alt="sigles0" />
       </div>
     </>

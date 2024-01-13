@@ -7,7 +7,7 @@ import Link from "next/link";
 export const Streams = () => {
   return (
     <>
-      <div className="relative w-full h-[75px] bg-[#f1eeee] flex  justify-around items-center ">
+      <div className="relative w-full h-[75px] bg-[#f6f7f9] flex  justify-around items-center ">
         <Link
           href={
             "https://open.spotify.com/track/0FZNmwLOX8auI8dIYhrCd7?si=aLqAy3u1R82SGyIJsVydCA"

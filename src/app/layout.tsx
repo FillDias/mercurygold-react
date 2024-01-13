@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
+import { Rodape } from "@/components/Rodape";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,7 @@ export default function RootLayout({
         {children}
         <Header />
 
-        <div className="h-[75px]" />
+        <Rodape />
       </body>
     </html>
   );
