@@ -21,7 +21,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 w-full h-[75px] bg-[#F3F3F3] flex  justify-between items-center px-3 border border-opacity-10 border-b-[#000] md:px-[10%]">
+      <header className="fixed top-0 w-full h-[75px] bg-[#f1fafa] flex  justify-between items-center px-3 border border-opacity-10 border-b-[#2e2d2d] md:px-[10%]">
         <div className="flex items-center">
           <Image
             className=" animate-bounce  w-[51px] lg:w-[90px]"

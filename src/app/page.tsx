@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Simgle } from "@/components/Simgle";
 import Contracapa from "@/components/Contracapa";
 import { Release } from "@/components/Release";
-
+import { Player } from "@/components/Players";
 export default function Home() {
   return (
     <>
@@ -16,6 +16,10 @@ export default function Home() {
       <Simgle />
       <Contracapa />
       <Release />
+
+      <div className="p-3 md:px-[10%] bg-[#f1fafa]">
+        <Player url="https://www.youtube.com/embed/vDl_HgSTKAQ?si=auqCgicYuGtH66sS" />
+      </div>
     </>
   );
 }
