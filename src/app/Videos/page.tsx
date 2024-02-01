@@ -24,7 +24,7 @@ export default function Videos() {
 
   return (
     <>
-      <div className="flex flex-col gap-4 bg-[#F0FFF0] p-2 md:px-[10%] md:py-[32px]">
+      <div className="flex flex-col gap-2 pt-16 bg-[#F0FFF0] p-2 md:px-[10%] md:py-[32px]">
         {videosList.map((item) => (
           <Player key={item.id} url={item.url} />
         ))}

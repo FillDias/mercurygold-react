@@ -16,10 +16,6 @@ export default function Home() {
       <Simgle />
       <Contracapa />
       <Release />
-
-      <div className="p-3 md:px-[10%] bg-[#f1fafa]">
-        <Player url="https://www.youtube.com/embed/vDl_HgSTKAQ?si=auqCgicYuGtH66sS" />
-      </div>
     </>
   );
 }
