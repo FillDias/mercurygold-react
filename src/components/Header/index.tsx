@@ -21,15 +21,17 @@ export const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 w-full h-[75px] bg-[#f1fafa] flex  justify-between items-center px-3 border border-opacity-10 border-b-[#2e2d2d] md:px-[10%]">
+      <header className="fixed z-20 top-0 w-full h-[75px] bg-[#f1fafa] flex  justify-between items-center px-3 border border-opacity-10 border-b-[#2e2d2d] md:px-[10%]">
         <div className="flex items-center">
           <Image
-            className=" animate-bounce  w-[51px] lg:w-[90px]"
+            className="  animate-bounce  w-[51px] lg:w-[65px]"
             src={logo}
             alt="mercury"
           />
         </div>
-        <h1 className=" h-[46px] mr-[48%]">Mercury_Gold</h1>
+        <h1 className=" fixed h-[52px] mr-[48%] ml-[14%] text-sm sm:text-base  md:text-xl lg:text-2xl">
+          Mercury_Gold
+        </h1>
         <div className="hidden lg:flex gap-[64px] mr-2">
           <Link className={`${verifyUrl(0)} text-[24px]`} href={"/"}>
             HOME
@@ -56,7 +58,7 @@ export const Header = () => {
           />
         )}
 
-        <div className="flex flex-row justify-start absolute h-0 ml-[14%] space-x-3  ">
+        <div className="fixed flex flex-row justify-start  h-0 ml-[14%] space-x-3  ">
           <Link href={"https://www.instagram.com/mercuryo_gold/"}>
             <AiOutlineInstagram />
           </Link>

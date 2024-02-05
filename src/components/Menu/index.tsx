@@ -17,7 +17,7 @@ export const Menu = ({ fecharMenu, className }: MenuProps) => {
   return (
     <>
       <div
-        className={`transition-all duration-300 ease-linear flex flex-col justify-center font-extralight tracking-wide p-[42px] w-[100vw] h-[calc(100vh-75px)] fixed bg-gradient-to-r from-cyan-100  to-white z-10 gap-[64px] md:px-[20%] ${className}`}
+        className={`transition-all duration-300 ease-linear flex flex-col justify-center font-extralight tracking-wide p-[42px] w-[100vw] h-[calc(100vh-75px)] fixed bg-gradient-to-r from-indigo-50 to-blue-50 z-10 gap-[64px] md:px-[20%] ${className}`}
       >
         <Link
           onClick={fecharMenu}
@@ -33,6 +33,14 @@ export const Menu = ({ fecharMenu, className }: MenuProps) => {
           href={"/Videos"}
         >
           Videos
+        </Link>
+
+        <Link
+          onClick={fecharMenu}
+          className={`${verifyUrl(1)} text-[24px]`}
+          href={"/Contact"}
+        >
+          Contact
         </Link>
       </div>
     </>

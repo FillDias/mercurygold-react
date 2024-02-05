@@ -12,7 +12,13 @@ export default function Home() {
     <>
       <div className="relative mt-[75px]"></div>
       <Streams />
-      <Image className="relative w-full h-auto     " src={capa} alt="capa" />
+      <div className="relative bg-gradient-to-r from-indigo-100 to-blue-50">
+        <Image
+          className=" w-full z-10 md:px-[10%]     "
+          src={capa}
+          alt="capa"
+        />
+      </div>
       <Simgle />
       <Contracapa />
       <Release />
